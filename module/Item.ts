@@ -8,4 +8,9 @@ export class Item{
         this.name = name;
         this.amountInStock = amountInStock;
     }
+
+    public update(name: string, amountInStock: number){
+        this.name = name;
+        this.amountInStock = amountInStock;
+    }
 }
